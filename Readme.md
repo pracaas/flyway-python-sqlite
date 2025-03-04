@@ -39,3 +39,29 @@ d. Result:
 
 e. From existing_database project run migration script
 > existing_flyway_migration.py
+
+
+## Download CLI
+
+Download Link
+> https://flyway.red-gate.com/download-cli
+
+Once downloaded, you will have a .tar.gz archive. Extract it to a location of your choice, for example:
+> tar -xvf flyway-commandline-<version>-macosx.tar.gz
+
+Move Flyway to a Suitable Location (Optional):
+If you want Flyway to be available system-wide, you can move the extracted folder to a directory like /usr/local/ or /opt/. For example:
+> sudo mv flyway-<version> /usr/local/flyway
+
+Add Flyway to the PATH:  
+To use Flyway globally from the terminal, you need to add the flyway command to your system’s PATH.  
+
+You can do this by editing your shell’s profile configuration file (such as .bash_profile, .zshrc, or .bashrc, depending on your shell).
+> nano ~/.zshrc
+
+Then add the following line:
+> export PATH=$PATH:/usr/local/flyway
+
+Verify the Installation:
+To check if Flyway has been installed correctly, run:
+> flyway -v
