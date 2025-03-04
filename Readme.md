@@ -41,9 +41,9 @@ e. From existing_database project run migration script
 > existing_flyway_migration.py
 
 
-## Download CLI
+## Download Flyway 
 
-Download Link
+Flyway CLI Download Link
 > https://flyway.red-gate.com/download-cli
 
 Once downloaded, you will have a .tar.gz archive. Extract it to a location of your choice, for example:
